@@ -15,9 +15,39 @@ const person = {
     },
 };
 
-person.email = 'Vitorantonion3301@gmail.com';
-person.telephone = '+55 991508715';
-person.hobbie.push( 'Exercise' );
-console.log( person.aboutMe.age );
-const { aboutMe: firstName, secondName, age } = person;
-console.log(person);
+function personObject () {
+
+    person.email = 'Vitorantonion3301@gmail.com';
+    person.telephone = '+55 991508715';
+
+    const { aboutMe: firstName, secondName, age } = person;
+
+    console.log( person.aboutMe);
+
+}
+
+const objectArray = [
+
+    {
+        languages:{
+            portuguese: 'Native',
+            french: 'Begginer',
+            spanish: 'Advanced',
+            english: 'Fluent',
+        },
+
+    },
+
+    {
+        cars:{
+            Toyota: 'Family car',
+            Honda: 'Sports car',
+            bmw: 'Branding car',
+            tesla: 'Future car',
+        },
+
+    },
+
+];
+
+console.log( personObject(), objectArray[0].languages);
