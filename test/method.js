@@ -1,5 +1,4 @@
-//Methods//
-
+//String methods//
 const string = 'Yeah, i am a string';
 
 function testing (){

@@ -8,8 +8,10 @@ const undefinedVarbiales = undefined; //Undefined type
 let undefinedVarbiales2; //Undefined type
 
 function myself (){
+
     const hello = `My name is ${myName} and i am ${age} year old`; 
 
     console.log(hello);
     console.log(typeof age); 
-}
+
+};

@@ -24,12 +24,13 @@ function personObject () {
 
     console.log( person.aboutMe);
 
-}
+} 
 
 const objectArray = [
 
     {
         languages:{
+            id: 1,
             portuguese: 'Native',
             french: 'Begginer',
             spanish: 'Advanced',
@@ -40,6 +41,7 @@ const objectArray = [
 
     {
         cars:{
+            id: 2,
             Toyota: 'Family car',
             Honda: 'Sports car',
             bmw: 'Branding car',

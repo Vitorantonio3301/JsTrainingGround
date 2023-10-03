@@ -8,6 +8,7 @@ function validation (){
     const array = ['JavaScript', 'Cpp', 'Java', 'Python', 'Assembly'];
 
     array.push('Rust');
+
     const indexValue = array.indexOf('Rust');
     const size = array.length;
 
