@@ -1,7 +1,6 @@
 //String methods//
-const string = 'Yeah, i am a string';
-
-function testing (){
+function stringTesting() {
+    const string = 'Yeah, i am a string';
     const sizeUp = string.toUpperCase();
     const sizeDown = string.toLowerCase();
     const lengthShow= string.length;
@@ -11,4 +10,12 @@ function testing (){
 
 };
 
-testing();
+//Date method//
+function dateTesting() {
+
+const dt = new Date();
+console.log(dt);
+
+};
+
+dateTesting();

@@ -6,13 +6,15 @@ const person = {
         age: '20',
         ocuppation: 'Programmer',
         hobbie: ['Games', 'Music', 'Study', 'Movies'],
-    },
+    }
+
+    ,
 
     adress: { 
         country: 'Brazil',
         state: 'Rio de janeiro',
         city: 'Duque de Caxias',
-    },
+    }
 };
 
 function personObject () {
@@ -49,7 +51,8 @@ const objectArray = [
         },
 
     },
-
+    
 ];
 
-console.log( personObject(), objectArray[0].languages);
+console.log( personObject(), objectArray[0].languages );
+
